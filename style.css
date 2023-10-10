@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right,rgba(255,0,0,0), #9500ff);
+}
+.ved{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#main{
+    overflow-y: hidden;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    background-color: #e89ded;
+    position: absolute;
+}
+#top{
+    width: 100%;
+    height: 100px;
+    background-color: #a816a1cc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#bottom{
+    width: 100%;
+    height: calc(100%-100px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 8px;
+    cursor: pointer;
+    justify-content: center;
+   
+}
+.hit, .score,.time{
+    width: 20%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Box{
+    background-color: aliceblue;
+    width: 40%;
+    margin-top: 1%;
+    height: 40%;
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: cadetblue;
+    
+}
+.ball{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(31, 9, 52);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.game{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+.game span{
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    background-color: hsl(290, 86%, 34%);
+    border-radius: 5px;
+}
